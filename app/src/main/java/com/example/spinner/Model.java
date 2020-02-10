@@ -1,10 +1,12 @@
 package com.example.spinner;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import android.databinding.InverseBindingMethod;
-import android.databinding.InverseBindingMethods;
+
 import android.widget.Spinner;
+
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+import androidx.databinding.InverseBindingMethod;
+import androidx.databinding.InverseBindingMethods;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +28,7 @@ public class Model extends BaseObservable {
 
 
     public Model() {
-        List<String> allCountries = new ArrayList<String>();
+        List<String> allCountries = new ArrayList<>();
         String[] locales = Locale.getISOCountries();
 
         for (String countryCode : locales) {
