@@ -11,4 +11,11 @@
     <string name="promonotification">promoNotification</string>
     <string name="sms">sms</string>
     <string name="email">email</string>
+
+    <array name="payment_options">
+        <item>Cash</item>
+        <item>NetBanking</item>
+        <item>UPI</item>
+
+    </array>
 </resources>
